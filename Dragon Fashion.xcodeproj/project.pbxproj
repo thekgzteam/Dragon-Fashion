@@ -14,6 +14,8 @@
 		FDA8BD801B5EA44E00D5494B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA8BD7F1B5EA44E00D5494B /* Images.xcassets */; };
 		FDA8BD831B5EA44E00D5494B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA8BD811B5EA44E00D5494B /* LaunchScreen.xib */; };
 		FDA8BD8F1B5EA44E00D5494B /* Dragon_FashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8BD8E1B5EA44E00D5494B /* Dragon_FashionTests.m */; };
+		FDA8BD9A1B5EAE6A00D5494B /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8BD991B5EAE6A00D5494B /* Dragon.m */; };
+		FDA8BD9D1B5EC35000D5494B /* ClothingDetailContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8BD9C1B5EC35000D5494B /* ClothingDetailContoller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		FDA8BD881B5EA44E00D5494B /* Dragon FashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragon FashionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA8BD8D1B5EA44E00D5494B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA8BD8E1B5EA44E00D5494B /* Dragon_FashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dragon_FashionTests.m; sourceTree = "<group>"; };
+		FDA8BD981B5EAE6A00D5494B /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		FDA8BD991B5EAE6A00D5494B /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		FDA8BD9B1B5EC35000D5494B /* ClothingDetailContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothingDetailContoller.h; sourceTree = "<group>"; };
+		FDA8BD9C1B5EC35000D5494B /* ClothingDetailContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothingDetailContoller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,11 @@
 				FDA8BD771B5EA44E00D5494B /* AppDelegate.m */,
 				FDA8BD791B5EA44E00D5494B /* ViewController.h */,
 				FDA8BD7A1B5EA44E00D5494B /* ViewController.m */,
+				FDA8BD9B1B5EC35000D5494B /* ClothingDetailContoller.h */,
+				FDA8BD9C1B5EC35000D5494B /* ClothingDetailContoller.m */,
 				FDA8BD7C1B5EA44E00D5494B /* Main.storyboard */,
+				FDA8BD981B5EAE6A00D5494B /* Dragon.h */,
+				FDA8BD991B5EAE6A00D5494B /* Dragon.m */,
 				FDA8BD7F1B5EA44E00D5494B /* Images.xcassets */,
 				FDA8BD811B5EA44E00D5494B /* LaunchScreen.xib */,
 				FDA8BD721B5EA44E00D5494B /* Supporting Files */,
@@ -221,6 +231,8 @@
 			files = (
 				FDA8BD7B1B5EA44E00D5494B /* ViewController.m in Sources */,
 				FDA8BD781B5EA44E00D5494B /* AppDelegate.m in Sources */,
+				FDA8BD9A1B5EAE6A00D5494B /* Dragon.m in Sources */,
+				FDA8BD9D1B5EC35000D5494B /* ClothingDetailContoller.m in Sources */,
 				FDA8BD751B5EA44E00D5494B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
